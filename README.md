@@ -1,4 +1,4 @@
-# 💻 Laptop Price Prediction - [Live Demo](https://your-live-demo-link.com)
+# 💻 Laptop Price Prediction - [Live Demo](https://huggingface.co/spaces/GokulV/laptop-price-prediction/)
 
 ![Laptop Banner](images/gradioui.png)
 
