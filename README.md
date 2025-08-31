@@ -93,6 +93,9 @@ Below are the final cross-validated R² scores and best hyperparameters for each
 | RandomForest         | `{'model__max_depth': 20, 'model__min_samples_split': 2, 'model__n_estimators': 200}` | 0.7530      |
 | XGBoost              | `{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 300}` | 0.7520      |
 
+## Actual vs Predicted
+![Actual vs Predicted](images/acual_vs_predicted.png)
+
 ## 📂 Project Structure
 ```
 ├── app.py                  # Gradio app
