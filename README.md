@@ -80,6 +80,19 @@ App will run locally on:
 
 ---
 
+## 📊 Model Performance
+
+Below are the final cross-validated R² scores and best hyperparameters for each model. **Ridge Regression** performed best.
+
+| Model                | Best Params                                      | Best CV R²  |
+|----------------------|--------------------------------------------------|-------------|
+| Ridge                | `{'model__alpha': 1}`                            | **0.7942**  |
+| LinearRegression     | `{}`                                             | 0.7773      |
+| Lasso                | `{'model__alpha': 0.1, 'model__max_iter': 10000}`| 0.7719      |
+| GradientBoosting     | `{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 300}` | 0.7556      |
+| RandomForest         | `{'model__max_depth': 20, 'model__min_samples_split': 2, 'model__n_estimators': 200}` | 0.7530      |
+| XGBoost              | `{'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 300}` | 0.7520      |
+
 ## 📂 Project Structure
 ```
 ├── app.py                  # Gradio app
